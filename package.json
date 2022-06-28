@@ -1,0 +1,30 @@
+{
+  "name": "authorization-roles",
+  "version": "1.0.0",
+  "description": "API with the ability to register and authorize with a specific role",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyOcheretenko/AuthorizationRoles.git"
+  },
+  "keywords": [
+    "authorization",
+    "api",
+    "jwt"
+  ],
+  "author": "Sergey Ocheretenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SergeyOcheretenko/AuthorizationRoles/issues"
+  },
+  "homepage": "https://github.com/SergeyOcheretenko/AuthorizationRoles#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  }
+}
