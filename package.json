@@ -4,7 +4,7 @@
   "description": "API with the ability to register and authorize with a specific role",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
